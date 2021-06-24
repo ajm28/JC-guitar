@@ -2,11 +2,12 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    padding: 5px;
 }
 
 /*------------------------------------------------------------------------------Section 1 - Callout */
 
-#callout {
+#callout-container {
     height: 100vh;
     background: url(../images/jc-lesson-bg.jpg) no-repeat center left fixed;
     background-size: contain;
@@ -14,9 +15,51 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    
 }
 
 .callout-text {
     color: white;
     font-weight: bold;
 }
+
+/*------------------------------------------------------------------------------Section 2 - Who am I? */
+
+#who-am-i-container {
+    height: 100vh;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.who-am-i-text {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 90px;
+    font-size: large;
+    
+}
+
+.who-am-i-image {
+    background: url(../images/who-am-i-cropped.jpg) no-repeat right;
+    height: 600px;
+    width: 100%;
+    
+}
+
+/*------------------------------------------------------------------------------Section 3 - How it Works */
+
+#how-it-works-container {
+    height: 100vh;
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*.how-it-works-header {
+    text-align: center;
+}
+
+.how-it-works-items {
+    text-align: center;
+}*/
