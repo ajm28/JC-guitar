@@ -1,1 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#callout {
+    height: 100vh;
+    background: url(../images/jc-lesson-bg.jpg) no-repeat center left fixed;
+    background-size: contain;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
