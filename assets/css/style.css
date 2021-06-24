@@ -16,7 +16,7 @@ body {
     justify-content: center;
 }
 
-#callout h1, h2 {
+.callout-text {
     color: white;
     font-weight: bold;
 }
