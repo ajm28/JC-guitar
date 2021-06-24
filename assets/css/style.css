@@ -4,6 +4,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/*------------------------------------------------------------------------------Section 1 - Callout */
+
 #callout {
     height: 100vh;
     background: url(../images/jc-lesson-bg.jpg) no-repeat center left fixed;
@@ -12,4 +14,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#callout h1, h2 {
+    color: white;
+    font-weight: bold;
 }
