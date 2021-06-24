@@ -63,3 +63,19 @@ body {
 .how-it-works-items {
     text-align: center;
 }*/
+
+/*------------------------------------------------------------------------------Section 4 - Reviews */
+
+#review-container {
+    height: 100vh;
+    display: block;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------Section 5 - Contact */
+
+#contact-container {
+    height: 100vh;
+    display: block;
+    text-align: center;
+}
