@@ -2,7 +2,53 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    
 }
+
+header {
+    max-height: 300px;
+    background-color: #000000;
+    margin: 0;
+}
+
+/*----Nav Bar----*/
+
+.navbar-stick {
+    display: flex;
+    top: 0px;
+    left: 0px;
+    position: sticky;
+    z-index: 999999;
+}
+
+.navbar-collapse {
+    justify-content: center;
+    background-color: #000000;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-item {
+    
+    background-color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.navbar-dark,
+.navbar-nav:hover,
+.nav-link:hover {
+    color: #e61b1c;
+    transition-duration: .5s;
+}
+
+
 
 /*------------------------------------------------------------------------------Section 1 - Callout */
 
@@ -33,12 +79,12 @@ body {
     
 }
 
-.who-image {
+.who-img {
 }
 
 /*------------------------------------------------------------------------------Section 3 - How it Works */
 
-.img-fluid {
+.how-icon {
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
@@ -53,3 +99,25 @@ body {
 
 /*------------------------------------------------------------------------------Section 5 - Contact */
 
+/*----Footer----*/
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    max-height: 120px;
+    
+    align-content: center;
+
+}
+
+
+@media only screen and (min-width: 600px)  {
+    .form {
+    width: 60%;
+    margin: auto;
+    }
+}
+
+    .footer-icon {
+        color: #ffffff;
+    }

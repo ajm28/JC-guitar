@@ -13,38 +13,31 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-dark navbar-expand-md bg-primary justify-content-between">
-    <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
-    <ul class="navbar-nav">
-     <li class="nav-item active">
-      <a class="nav-link pl-0" href="#">Home</a>
-    </li>
-     <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-    </li>
-     <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-      </li>
-       </ul>
-        </div>
-    <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25"></a>
-     <div class="navbar-collapse collapse dual-nav w-50 order-2">
-    <ul class="nav navbar-nav ml-auto">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-     </li>
-        <li class="nav-item">
-     <a class="nav-link" href="#">Link</a>
-                </li>
-      </ul>
-     </div>
-          </div>
-    </nav>
+    
   </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-stick">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#who">Who am I?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#how">How it Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#review">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   
   <section class="container-fluid" id="callout-container">
     <div class="row">
@@ -65,8 +58,8 @@
 
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, beatae? Consequuntur quisquam iure error vitae recusandae iusto laboriosam provident, corporis quas, dignissimos nam, accusamus necessitatibus est. Dicta voluptatum asperiores veniam aspernatur vitae consequuntur, modi praesentium officia qui eveniet in, aperiam consectetur quo laborum ea mollitia distinctio ipsa cum quod recusandae.</p>
       </div>
-      <div class="col-sm-6 d-none d-lg-block">
-        <img src="assets/images/who-am-i-cropped.jpg" class="who-image pl-5">
+      <div class="col-sm-6 d-none d-sm-block">
+        <img src="assets/images/who-am-i-cropped.jpg" class="img-fluid who-img">
       </div>
     </div>
 
@@ -80,15 +73,15 @@
     </div>
     <div class="row how-it-works-items">
       <div class="col-sm-4 text-center p-2">
-        <img src="assets/images/user-solid.svg" class="img-fluid">
+        <img src="assets/images/user-solid.svg" class="img-fluid how-icon">
         <h4>1 to 1</h4>
       </div>
       <div class="col-sm-4 text-center p-2">
-        <img src="assets/images/users-solid.svg" class="img-fluid">
+        <img src="assets/images/users-solid.svg" class="img-fluid how-icon">
         <h4>Groups</h4>
       </div>
       <div class="col-sm-4 text-center p-2">
-        <img src="assets/images/laptop-solid.svg" class="img-fluid">
+        <img src="assets/images/laptop-solid.svg" class="img-fluid how-icon">
         <h4>Zoom</h4>
       </div>
     </div>
@@ -101,39 +94,42 @@
 
   <section class="container" id="review">
     <div class="row">
-      <div class="col-12 review-text p-5">
+      <div class="col-12 review-text p-5 text-center">
         <h2>Reviews</h2>
       </div>
     </div>  
     <div class="row">  
-      <div class="col-4">
+      <div class="col-sm-4 text-center p-2">
+        <img src="assets/images/am-review.png" class="img-fluid how-icon">
         <p>My playing has improved so much since I started taking lessons. Thanks Jim!</p>
         <p>-Allan Martin</p>
       </div>
-      <div class="col-4">
+      <div class="col-sm-4 text-center p-2">
+        <img src="assets/images/ga-review.png" class="img-fluid how-icon">
         <p>I have been playing the guitar for a number of years and didn't improve much. Since seeing Jim I have came on leaps and bounds.</p>
         <p>-Gary Adey</p>
       </div>
-      <div class="col-4">
+      <div class="col-sm-4 d-none d-sm-block text-center p-2">
+        <img src="assets/images/cm-review.png" class="img-fluid how-icon">
         <p>Jim's a great teacher. Can't believe how much I've improved over the last couple of months!</p>
         <p>-Ciaran Murphy</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-12">
+      <div class="col-sm-12 text-center p-5">
         <button class="btn btn-danger btn-lg">Contact Me</button>
       </div>
     </div>
   </section>
 
-  <section class="container" id="contact">
-    <div class="row">
-      <div class="col-12">
+  <section class="container text-center" id="contact">
+    <div class="row p-5">
+      <div class="col-sm-12 text-center">
         <h2>Contact Me</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
+    <div class="row form">
+      <div class="col-sm-6 mb-5">
         <form action="/action_page.php">
           <div class="form-group">
             <label for="name">Name:</label>
@@ -149,16 +145,50 @@
           </div>
           <div class="form-group">
             <label for="additional">Additional Info:</label>
-            <textarea type="text" class="form-control" id="additional" rows="5"></textarea>
+            <textarea type="text" class="form-control" id="additional" rows="4"></textarea>
           </div>
           <button type="submit" class="btn btn-danger btn-lg">Submit</button>
         </form>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <p>
+          Jim Chadwin<br>
+          Unit 129<br>
+          Stirling Enterprise Park<br>
+          Player Road<br>
+          Stirling<br>
+          FK7 7RP<br>
+        </p>
+        <a class="tel-link" href="tel:03333583339" aria-label="Telephone Number">01786357435</a>
+        
+        <iframe class="map" id="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8897.418498405039!2d-3.9291858!3d56.1163835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xba666bacae75659e!2sStirling%20Framing%20Studio!5e0!3m2!1sen!2suk!4v1624735361817!5m2!1sen!2suk"
+            allowfullscreen="" title="Jim Chadwin - Guitar Tuition"></iframe>
       </div>
     </div>
 
   </section>
 
-  <footer>
+  <footer class="container-fluid">
+    <div class="row text-center">
+      <div class="col-sm-12">
+        
+        <ul class="list-inline">
+          <li class="list-inline-item p-2">
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="fab fa-facebook fa-3x footer-icon"></i></a>
+          </li>
+          <li class="list-inline-item p-2">
+            <a href="https://www.instagram.com" target="_blank">
+              <i class="fab fa-instagram fa-3x footer-icon"></i></a>
+          </li>
+          <li class="list-inline-item p-2">
+            <a href="https://www.youtube.com" target="_blank">
+              <i class="fab fa-youtube fa-3x footer-icon"></i></a>
+          </li>
+        </ul>  
+      </div>
+    </div>
     
   </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
