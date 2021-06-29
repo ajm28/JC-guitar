@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;600;700;900&display=swap');
 
 body {
     font-family: "Roboto", sans-serif;
@@ -9,10 +9,20 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+
 header {
     max-height: 300px;
     background-color: #000000;
     margin: 0;
+}
+
+/*----Styling----*/
+
+.header-text {
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 /*----Nav Bar----*/
@@ -32,6 +42,7 @@ header {
 
 .navbar {
     padding: 0;
+    background-color: #df0402;
 }
 
 .nav-item {
@@ -48,11 +59,17 @@ header {
 .navbar-dark,
 .navbar-nav:hover,
 .nav-link:hover {
-    color: #e61b1c;
+    color: #df0402;
     transition-duration: .5s;
 }
 
+.navbar-toggler {
+    background-color: #df0402;
+}
 
+.btn {
+    background-color: #df0402;
+}
 
 /*------------------------------------------------------------------------------Section 1 - Callout */
 
@@ -60,7 +77,7 @@ header {
     height: 100vh;
     background: url(../images/jc-lesson-bg.jpg) no-repeat center left fixed;
     background-size: contain;
-    background-color: black;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
