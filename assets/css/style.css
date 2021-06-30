@@ -87,6 +87,11 @@ body {
     background-color: #000;
 }
 
+.navbar-toggler-icon i {
+    color: #fff;
+    font-size: 1.75rem;
+}
+
 /*----Section-1-Callout----*/
 
 #callout-container {
