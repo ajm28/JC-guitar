@@ -9,13 +9,16 @@ html {
     scroll-behavior: smooth;
 }
 
+/*----Header----*/
 
-
-
-header {
-    max-height: 300px;
+.bg-color-head {
     background-color: #000000;
-    margin: 0;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*----Styling----*/
