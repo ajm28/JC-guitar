@@ -97,15 +97,9 @@ html {
 
 /*------------------------------------------------------------------------------Section 2 - Who am I? */
 
-
-
 .who-am-i-text {
     font-size: 1.2rem;
     align-self: center;
-    
-}
-
-.who-img {
 }
 
 /*------------------------------------------------------------------------------Section 3 - How it Works */
@@ -115,8 +109,7 @@ html {
     width: 6rem;
     border-radius: 50%;
     border-style: solid;
-    border-width: 0.2rem;
-    
+    border-width: 0.2rem;  
 }
 
 /*------------------------------------------------------------------------------Section 4 - Reviews */
@@ -134,10 +127,8 @@ html {
 footer {
     background-color: #000000;
     color: #ffffff;
-    max-height: 120px;
-    
+    max-height: 120px;   
     align-content: center;
-
 }
 
 
@@ -148,6 +139,6 @@ footer {
     }
 }
 
-    .footer-icon {
-        color: #ffffff;
-    }
+.footer-icon {
+    color: #ffffff;
+ }
