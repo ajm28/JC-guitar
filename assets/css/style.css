@@ -30,6 +30,10 @@ html {
     font-weight: 400;
 }
 
+.btn {
+    background-color: #df0402;
+}
+
 /*----Nav Bar----*/
 
 .navbar-stick {
@@ -47,7 +51,7 @@ html {
 
 .navbar {
     padding: 0;
-    background-color: #df0402;
+    background-color: #000000;
 }
 
 .nav-item {
@@ -64,19 +68,15 @@ html {
 .navbar-dark,
 .navbar-nav:hover,
 .nav-link:hover {
-    color: #df0402;
+    color: #6c757d;
     transition-duration: .5s;
 }
 
 .navbar-toggler {
-    background-color: #df0402;
+    background-color: #000000;
 }
 
-.btn {
-    background-color: #df0402;
-}
-
-/*------------------------------------------------------------------------------Section 1 - Callout */
+/*----Section 1 - Callout----*/
 
 #callout-container {
     height: 100vh;
