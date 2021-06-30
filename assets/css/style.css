@@ -20,6 +20,11 @@ body {
     margin-right: auto;
 }
 
+.logo-dimensions {
+    width: 300px;
+    height: 184px;
+}
+
 /*----Styling----*/
 
 .section-header {
@@ -36,7 +41,12 @@ body {
     background-color: #df0402;
 }
 
-/*----Nav Bar----*/
+.break-line {
+    border: 1px solid #000;
+    margin: 0 5rem;
+    }
+
+/*----NavBar----*/
 
 .navbar-stick {
     display: flex;
@@ -48,17 +58,16 @@ body {
 
 .navbar-collapse {
     justify-content: center;
-    background-color: #000000;
+    background-color: #000;
 }
 
 .navbar {
     padding: 0;
-    background-color: #000000;
+    background-color: #000;
 }
 
 .nav-item {
-    
-    background-color: #000000;
+     background-color: #000;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -75,16 +84,16 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #000000;
+    background-color: #000;
 }
 
-/*----Section 1 - Callout----*/
+/*----Section-1-Callout----*/
 
 #callout-container {
     height: 100vh;
     background: url(../images/jc-lesson-bg.jpg) no-repeat center left fixed;
     background-size: contain;
-    background-color: #000000;
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,18 +102,18 @@ body {
 }
 
 .callout-text {
-    color: white;
+    color: #fff;
     font-weight: bold;
 }
 
-/*------------------------------------------------------------------------------Section 2 - Who am I? */
+/*----Section 2-Who am I?----*/
 
 .who-am-i-text {
     font-size: 1.2rem;
     align-self: center;
 }
 
-/*------------------------------------------------------------------------------Section 3 - How it Works */
+/*----Section-3-How-it-Works----*/
 
 .how-icon {
     height: 6rem;
@@ -114,11 +123,7 @@ body {
     border-width: 0.2rem;  
 }
 
-/*------------------------------------------------------------------------------Section 4 - Reviews */
-
-
-
-/*------------------------------------------------------------------------------Section 5 - Contact */
+/*----Section-5-Contact----*/
 
 #map {
     border-style: solid;    
@@ -127,12 +132,11 @@ body {
 /*----Footer----*/
 
 footer {
-    background-color: #000000;
-    color: #ffffff;
-    max-height: 120px;   
+    background-color: #000;
+    color: #fff;
+    max-height: 7.5rem;   
     align-content: center;
 }
-
 
 @media only screen and (min-width: 600px)  {
     .form {
@@ -142,5 +146,9 @@ footer {
 }
 
 .footer-icon {
-    color: #ffffff;
+    color: #fff;
+ }
+
+ .footer-icon:hover {
+     color: #df0402;
  }
