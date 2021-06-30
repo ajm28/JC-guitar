@@ -1,4 +1,10 @@
-Jim Chadwin - Guitar Tutor Stirling
+<div style="text-align:center;">
+<img src="https://github.com/ajm28/JC-guitar/blob/master/assets/images/jc-logo-invert.jpg"></img><br>
+</div>
+
+<div style="text-align:center;">
+<img src="https://github.com/ajm28/JC-guitar/blob/master/wireframes/mockup.png"></img><br>
+</div>
 
 # **Aims of the Site**
 
