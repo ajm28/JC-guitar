@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;600;700;900&display=swap');
 
-body {
-    font-family: "Roboto", sans-serif;
-    
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -23,9 +18,16 @@ html {
 
 /*----Styling----*/
 
-.header-text {
+.section-header {
+    font-family: "Roboto", sans-serif;
     font-size: 2rem;
     font-weight: 500;
+}
+
+.section-para {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 /*----Nav Bar----*/
