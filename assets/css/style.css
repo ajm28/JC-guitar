@@ -11,7 +11,7 @@ body {
 /*----Header----*/
 
 .bg-color-head {
-    background-color: #000000;
+    background-color: #000;
 }
 
 .logo {
@@ -71,7 +71,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #fff;
     font-size: 1.2rem;
     font-weight: 700;
 }
