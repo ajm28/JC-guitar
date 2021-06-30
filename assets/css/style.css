@@ -4,6 +4,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 /*----Header----*/
 
 .bg-color-head {
@@ -19,13 +23,11 @@ html {
 /*----Styling----*/
 
 .section-header {
-    font-family: "Roboto", sans-serif;
     font-size: 2rem;
     font-weight: 500;
 }
 
 .section-para {
-    font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
 }
