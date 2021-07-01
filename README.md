@@ -1,5 +1,5 @@
 <div style="text-align:center;">
-<img src="https://github.com/ajm28/JC-guitar/blob/master/assets/images/jc-logo-invert.png"></img><br>
+<img src="https://github.com/ajm28/JC-guitar/blob/master/wireframes/jc-logo-invert.jpg"></img><br>
 </div>
 
 <div style="text-align:center;">
