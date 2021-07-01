@@ -35,11 +35,11 @@ As a well-known tutor in the Stirling area he has a small existing client base t
 
 &quot;As a visitor I want to be able to easily navigate through the site&quot;
 
-&quot;As a visitor I want to be given clear and concise information on what the business offers&quot;
+&quot;As a visitor I want to be given clear and concise information on what the business offers&quot; [Click Here](https://github.com/ajm28/JC-guitar/blob/master/wireframes/how-us.png)                               
 
-&quot;As a visitor I want to be able to read reviews and feel confident that they are a good teacher&quot;
+&quot;As a visitor I want to be able to read reviews and feel confident that they are a good teacher&quot; [Click Here](https://github.com/ajm28/JC-guitar/blob/master/wireframes/review-us.png)
 
-&quot;As a visitor I want to be able to contact the business via email, phone, where the business is located etc.&quot;
+&quot;As a visitor I want to be able to contact the business via email, phone, where the business is located etc.&quot; [Click Here](https://github.com/ajm28/JC-guitar/blob/master/wireframes/contact-us.png)
 
 ## Wireframe Mockups:
 
@@ -124,6 +124,31 @@ I frequently used the below tools to help ensure no issues as I progressed throu
 
 - [html5.validator.nu](https://html5.validator.nu/) to validate HTML
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/) to validate CSS
+- [Lighthouse Chrome](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) to audit best security practice and reduce loading times
+
+At the final review my mentor and I created a list of bugs and features to add. I also had some feedback from the peer-review section on slack.
+
+These were as follows:
+
+1. Add a line to distinguish between sections
+    - Fix – Added 1px border between sections. Sections are now clearly defined.
+2. Fix image not displaying properly on certain screens
+    - Fix - Changed col- class. Displays better but could be improved.
+3. Fix image stretch
+    - Fix - Images were resized in external program.
+4. Remove some code repetition and tidy up code.
+    - Fix – Code was checked multiple times for spacing etc. and code repetition was minimized.
+5. Fix submit button
+    - Fix – Removed call to action. Button now does nothing when pressed.
+6. Fix navbar-toggler-icon contrast
+    - Fix – navbar-toggler-icon was targeted and replaced with easier to see icon.
+7. Test all links work
+    - Fix – All Links and buttons were tested. Everything does as it should.
+8. Fix form validation
+    - Fix – Added "required" to code.
+9. Use Lighthouse Chrome to help improve performance and security
+    - Has increased performance so all categories scoring in the 90s.
+
 
 # **Deployment**
 
@@ -164,3 +189,5 @@ All images provided by the client and text content agreed upon.
 I would like to thank my mentor Richard for all the encouragement and advice he has given throughout the project and everyone on Slack who has helped.
 
 I&#39;d also like to thank Jim Chadwin for allowing me to create this site for him. He has provided a lot of great feedback and been supportive throughout.
+
+Finally, I would like to thank my fiancée Kay Flounders for designing the logo and for the encouragement and support she has given me.
